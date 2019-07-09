@@ -55,7 +55,7 @@ creds:
     url : http://html5up.net/spectral
     lic : ccb3
   - for : Mods for a Jekyll blog
-    by  : arkadianriver
+    by  : Gary Faircloth
     url : http://arkadianriver.com
     lic : mit
   - for : Icons
@@ -91,17 +91,19 @@ creds:
     url : https://jquery.com/
     lic : mit
 #
-#inspiration:
-#  - name : Michael Rose
-#    url  : https://github.com/mmistakes
-#  - name : David Ollerhead
-#    url  : https://github.com/oller
-#  - name : Bud Parr
-#    url  : https://github.com/budparr
-#  - name : Vladimir Zhbanko
-#    url  : https://twitter.com/vladdsm
-#  - name : Adam Garrett-Harris
-#    url  : https://twitter.com/agarrharr
+inspiration:
+  - name : Gary Faircloth
+    url  : http://arkadianriver.com
+  - name : Michael Rose
+    url  : https://github.com/mmistakes
+  - name : David Ollerhead
+    url  : https://github.com/oller
+  - name : Bud Parr
+    url  : https://github.com/budparr
+  - name : Vladimir Zhbanko
+    url  : https://twitter.com/vladdsm
+  - name : Adam Garrett-Harris
+    url  : https://twitter.com/agarrharr
 #
 other-image-credit: All other images are public domain.
 # 
