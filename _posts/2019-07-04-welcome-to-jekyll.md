@@ -9,7 +9,7 @@ permalink: /topics/welcome-to-jekyll/
 categories:
   - topics
   - welcome-to-jekyll
-background-image: flickr-froderik.jpg
+background-image: fig03.jpg
 icon: book
 ---
 

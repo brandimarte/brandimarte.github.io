@@ -5,12 +5,33 @@ permalink: /contact/
 options: nolanding
 excerpt: Get in touch
 background-image: pic03.jpg
-script-includes:
-  - /js/jquery.validate.min.js
-script: |
-  $("#sendemail").validate();
 ---
 
+<section>
+  <form class="email_me" action="https://formspree.io/{{site.email}}" method="POST">
+    <div class="row uniform">
+      <div class="6u 12u$(xsmall)">
+        <input id="icon_prefix" type="text" name="name"  placeholder="Name" class="validate email_input">
+      </div>
+      <div class="6u$ 12u$(xsmall)">
+        <input id="icon_prefix" name="_replyto" type="email" placeholder="Email" class="validate email_input" />
+      </div>
+      <div class="12u$">
+        <input id="icon_prefix" type="text" name="_subject" placeholder="Subject" class="email_input" />
+      </div>
+      <div class="12u$">
+        <textarea id="textarea1" aria-required="true" name="message" placeholder="Type your message" rows="6" class="materialize-textarea email_input validate"></textarea>
+      </div>
+      <div class="12u$">
+        <ul class="actions">
+          <li><input type="submit" value="Send Message" class="special" /></li>
+        </ul>
+      </div>
+    </div>
+  </form>
+</section>
+
+<!--
 <section>
   <form id="sendemail" method="post" action="{{ site.data.tokens.mailaction }}">
     <div class="row uniform">
@@ -42,3 +63,4 @@ script: |
            value="{{ '/contact-failure' | prepend: site.baseurl | prepend: site.url }}" />
   </form>
 </section>
+-->
