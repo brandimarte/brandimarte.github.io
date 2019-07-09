@@ -62,6 +62,10 @@ creds:
     by  : Dave Gandy
     url : https://fortawesome.github.io/Font-Awesome/
     lic : mit
+  - for : Academic icons
+    by  : James Walsh
+    url : https://github.com/jpswalsh/academicons
+    lic : mit
   - for : Syntax-highlighting
     by  : Pygments.org
     url : http://pygments.org
@@ -87,22 +91,19 @@ creds:
     url : https://jquery.com/
     lic : mit
 #
-inspiration:
-  - name : Michael Rose
-    url  : https://github.com/mmistakes
-  - name : David Ollerhead
-    url  : https://github.com/oller
-  - name : Bud Parr
-    url  : https://github.com/budparr
-  - name : Vladimir Zhbanko
-    url  : https://twitter.com/vladdsm
-  - name : Adam Garrett-Harris
-    url  : https://twitter.com/agarrharr
+#inspiration:
+#  - name : Michael Rose
+#    url  : https://github.com/mmistakes
+#  - name : David Ollerhead
+#    url  : https://github.com/oller
+#  - name : Bud Parr
+#    url  : https://github.com/budparr
+#  - name : Vladimir Zhbanko
+#    url  : https://twitter.com/vladdsm
+#  - name : Adam Garrett-Harris
+#    url  : https://twitter.com/agarrharr
 #
 other-image-credit: All other images are public domain.
-#
-# Chances are you replaced at least the banner below and will want
-# to change the attribution.
 # 
 # 'lic' values correspond to the keys in the license hash above
 #
@@ -115,8 +116,4 @@ image-credit:
     by  : froderik
     url : https://www.flickr.com/photos/froderik/9355090806/
     lic : ccbsa2
-  - src : /images/banner.jpg
-    by  : Konstaninos Dafallas
-    url : https://www.flickr.com/photos/72906133@N00/4011647045/
-    lic : ccb2
 
