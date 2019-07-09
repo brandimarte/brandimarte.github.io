@@ -67,7 +67,7 @@ creds:
     url : https://github.com/jpswalsh/academicons
     lic : mit
   - for : Syntax-highlighting
-    by  : Pygments.org
+    by  : Pygments
     url : http://pygments.org
     lic : mit
   - for : Lora font
@@ -91,19 +91,19 @@ creds:
     url : https://jquery.com/
     lic : mit
 #
-inspiration:
-  - name : Gary Faircloth
-    url  : http://arkadianriver.com
-  - name : Michael Rose
-    url  : https://github.com/mmistakes
-  - name : David Ollerhead
-    url  : https://github.com/oller
-  - name : Bud Parr
-    url  : https://github.com/budparr
-  - name : Vladimir Zhbanko
-    url  : https://twitter.com/vladdsm
-  - name : Adam Garrett-Harris
-    url  : https://twitter.com/agarrharr
+#inspiration:
+#  - name : Gary Faircloth
+#    url  : http://arkadianriver.com
+#  - name : Michael Rose
+#    url  : https://github.com/mmistakes
+#  - name : David Ollerhead
+#    url  : https://github.com/oller
+#  - name : Bud Parr
+#    url  : https://github.com/budparr
+#  - name : Vladimir Zhbanko
+#    url  : https://twitter.com/vladdsm
+#  - name : Adam Garrett-Harris
+#    url  : https://twitter.com/agarrharr
 #
 other-image-credit: All other images are public domain.
 # 
