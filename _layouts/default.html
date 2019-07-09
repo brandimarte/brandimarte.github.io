@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 {% include topcomment.html %}
+
 <html lang="{{ site.lang }}">
 
   {% include head.html %}
@@ -11,11 +12,14 @@
 
       {% include header.html %}
 
-      <article{%
-        if page.background-image %} id="main"{%
-        elsif page.options contains 'minihead' %} id="minihead"{%
-        else %} id="standard"{%
-        endif %}>
+      <article
+	{% if page.background-image %}
+	  id="main"
+	{% elsif page.options contains 'minihead' %}
+	  id="minihead"
+	{% else %}
+	  id="standard"
+	{% endif %}>
 
         {% include header-inner.html %}
 
@@ -28,7 +32,5 @@
       {% include scripts.html %}
 
     </div>
-
   </body>
-
 </html>
