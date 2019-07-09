@@ -8,7 +8,7 @@ options: [minihead]
 permalink: /topics/welcome-to-jekyll/
 categories:
   - topics
-  - jekyll
+  - welcome-to-jekyll
 background-image: flickr-froderik.jpg
 icon: book
 ---
