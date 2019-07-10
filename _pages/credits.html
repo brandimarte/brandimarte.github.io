@@ -29,7 +29,13 @@ background-image: pic03.jpg
       {% endif %}
       <td>
 	{% if c.lic %}
-	  {{ site.data.credits.licenses[c.lic].name }}
+	  {% if site.data.credits.licenses[c.lic].url %}
+	    <a target="_blank" href="{{ site.data.credits.licenses[c.lic].url }}">
+	      {{ site.data.credits.licenses[c.lic].name }}
+	    </a>
+	  {% else %}
+	    {{ site.data.credits.licenses[c.lic].name }}
+	  {% endif %}
 	{% else %}
 	  public domain
 	{% endif %}
