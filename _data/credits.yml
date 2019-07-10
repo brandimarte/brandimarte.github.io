@@ -82,14 +82,6 @@ creds:
     by  : Jekyll
     url : https://jekyllrb.com/
     lic : mit
-  - for : jQuery validation
-    by  : Jörn Zaefferer
-    url : http://jqueryvalidation.org/
-    lic : mit
-  - for : jQuery
-    by  : jQuery Foundation
-    url : https://jquery.com/
-    lic : mit
 #
 #inspiration:
 #  - name : Gary Faircloth
