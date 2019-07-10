@@ -9,11 +9,11 @@ licenses:
   sil:
     name : SIL Open Font License, 1.1
     icon :
-    url  : 
+    url  : https://opensource.org/licenses/OFL-1.1
   mit:
     name : MIT License
     icon :
-    url  :
+    url  : https://opensource.org/licenses/MIT
   ccb2:
     name : Creative Commons Attribution 2.0 Generic
     icon :
@@ -41,11 +41,11 @@ licenses:
   apa2:
     name : Apache License, 2.0
     icon :
-    url  :
+    url  : https://www.apache.org/licenses/LICENSE-2.0
   gplv3:
     name : Gnu Public License, 3.0
     icon :
-    url  :
+    url  : https://www.gnu.org/licenses/gpl-3.0.en.html
 #
 # 'lic' values correspond to the keys in the license hash above
 # 
@@ -81,6 +81,10 @@ creds:
   - for : Build framework
     by  : Jekyll
     url : https://jekyllrb.com/
+    lic : mit
+  - for : jQuery
+    by  : jQuery Foundation
+    url : https://jquery.com/
     lic : mit
 #
 #inspiration:
