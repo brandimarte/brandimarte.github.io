@@ -1,0 +1,45 @@
+---
+priority: 0.02
+categories: publications
+pub-author: Mads Engelund, Nick Papior, Pedro Brandimarte, Thomas Frederiksen, Aran Garcia-Lekue and Daniel Sánchez-Portal
+pub-title: "Search for a Metallic Dangling-Bond Wire on n-Doped H-Passivated Semiconductor Surfaces"
+pub-journal: The Journal of Physical Chemistry C
+pub-volume: 120
+pub-number: 36
+pub-doi: 10.1021/acs.jpcc.6b04540
+pub-url: https://doi.org/10.1021/acs.jpcc.6b04540
+pub-pdf: https://pubs.acs.org/doi/pdf/10.1021/acs.jpcc.6b04540?rand=pnr80go6
+background-image: JPCC2016.jpg
+options: minihead, notitle
+tags:
+  - photovoltaic
+  - graphene nanoribbons
+  - GW
+  - DFT
+---
+
+##### Abstract
+
+We have theoretically investigated the electronic properties of neutral and n-doped dangling bond (DB) quasi-one-dimensional structures (lines) in the Si(001):H and Ge(001):H substrates with the aim of identifying atomic-scale interconnects exhibiting metallic conduction for use in on-surface circuitry.
+Whether neutral or doped, DB lines are prone to suffer geometrical distortions or have magnetic ground states that render them semiconducting.
+However, from our study we have identified one exception - a dimer row fully stripped of hydrogen passivation.
+Such a DB-dimer line shows an electronic band structure which is remarkably insensitive to the doping level, and thus, it is possible to manipulate the position of the Fermi level, moving it away from the gap.
+Transport calculations demonstrate that the metallic conduction in the DB-dimer line can survive thermally induced disorder but is more sensitive to imperfect patterning.
+In conclusion, the DB-dimer line shows remarkable stability to doping and could serve as a one-dimensional metallic conductor on n-doped samples.
+
+##### Bibtex citation
+
+```
+@Article{Engelund2016,
+  author    = {Mads Engelund and Nick Papior and Pedro Brandimarte and Thomas Frederiksen and Aran Garcia-Lekue and Daniel S{\'{a}}nchez-Portal},
+  title     = {Search for a Metallic Dangling-Bond Wire on \textit{n}-Doped H-Passivated Semiconductor Surfaces},
+  journal   = {Journal of Physical Chemistry C},
+  year      = {2016},
+  volume    = {120},
+  number    = {36},
+  pages     = {20303--20309},
+  issn      = {1932-7447},
+  doi       = {10.1021/acs.jpcc.6b04540},
+  publisher = {American Chemical Society ({ACS})},
+}
+```
