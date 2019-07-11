@@ -15,7 +15,7 @@ tags:
   - photovoltaic
   - graphene nanoribbons
   - GW
-  - DFT
+  - density functional theory
 ---
 
 ##### Abstract
