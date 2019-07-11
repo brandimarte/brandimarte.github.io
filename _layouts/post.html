@@ -34,13 +34,29 @@ layout: default
       <hr style="margin-top:3px;" />
     {% endunless %}
     {% if page.categories contains 'publications' and page.tags %}
-      <h4>Skills</h4>
-      {% assign work = page %}
-      {% include techlist.html %}
+      <h2>{{ page.pub-title }}</h2>
+      <h5>
+	{{ page.pub-journal }} - {{ page.date  | date: "%Y" }}
+	&nbsp;
+	<a target="_blank" href="{{ page.pub-url }}">
+	  <span class="ai ai-doi ai-lg"></span>
+	</a>
+	&nbsp;
+	<a target="_blank" href="{{ page.pub-pdf }}">
+	  <span class="icon fa-file-pdf-o fa-lg style4"></span>
+	</a>
+      </h5>
+      {{ page.pub-author }}
+      <hr/>
     {% endif %}
 
     {{ content }}
 
+    {% if page.categories contains 'publications' and page.tags %}
+      <h5>Key words</h5>
+      {% assign work = page %}
+      {% include techlist.html %}
+    {% endif %}
     {% if sorted_list %}
       {% if site.navlinks == 'bottom' or site.navlinks == 'both' %}
         {% unless perma %}

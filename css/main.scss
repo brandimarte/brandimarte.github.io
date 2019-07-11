@@ -589,6 +589,10 @@ input[type="radio"] {
 	color: _palette(accent4, bg);
     }
 
+    &.style4 {
+	color: _palette(accent6, bg);
+    }
+
     &.styleN {
 	font-size: _font(hdr-size-xxlarge);
 	&.Nvar0 {
