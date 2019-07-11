@@ -9,7 +9,7 @@ pub-number: 1
 pub-doi: 10.1038/srep06579
 pub-url: https://doi.org/10.1038/srep06579
 pub-pdf: https://www.nature.com/articles/srep06579.pdf
-background-image: SciRep2014.jpg
+background-image: SciRep2014_back.jpg
 options: minihead, notitle
 tags:
   - photovoltaic
@@ -39,6 +39,7 @@ Finally, we estimate some relevant optical properties that strengthen the potent
   year      = {2014},
   volume    = {4},
   number    = {1},
+  pages     = {6579},
   issn      = {2045-2322},
   doi       = {10.1038/srep06579},
   publisher = {Springer Nature},

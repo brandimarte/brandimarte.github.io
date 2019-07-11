@@ -48,6 +48,17 @@ layout: default
       </h5>
       {{ page.pub-author }}
       <hr/>
+      {% if page.pub-fig %}
+        <div class="box alt">
+	  <div class="row uniform 50%">
+	    <div class="12u">
+	      <span class="image fit">
+		<img src="{{ site.baseurl }}/images/{{ page.pub-fig }}" alt="" />
+	      </span>
+	    </div>
+	  </div>
+	</div>
+      {% endif %}
     {% endif %}
 
     {{ content }}
