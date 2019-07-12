@@ -1,7 +1,7 @@
 ---
 priority: 0.01
 categories: publications
-pub-author: "Cesar E. P. Villegas, P. B. Mendonça, and A. R. Rocha"
+pub-author: Cesar E. P. Villegas, <u>P. B. Mendonça</u>, and A. R. Rocha
 pub-title: "Optical spectrum of bottom-up graphene nanoribbons: towards efficient atom-thick excitonic solar cells"
 pub-journal: Scientific Reports
 pub-volume: 4

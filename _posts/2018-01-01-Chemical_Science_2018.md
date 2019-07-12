@@ -1,7 +1,7 @@
 ---
 priority: 0.06
 categories: publications
-pub-author: Luana S. Pedroza, Pedro Brandimarte, Alexandre Reily Rocha, and M.-V. Fernández-Serra
+pub-author: Luana S. Pedroza, <u>Pedro Brandimarte</u>, Alexandre Reily Rocha, and M.-V. Fernández-Serra
 pub-title: "Bias-dependent local structure of water molecules at a metallic interface"
 pub-journal: Chemical Science
 pub-volume: 9
