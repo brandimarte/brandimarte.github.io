@@ -23,17 +23,18 @@
                 <li><a href="#" class="button special">Activate</a></li>
              </ul>
           -->
-        </div>{%
-        if site.greeting %}
-          <a href="#greeting" class="more scrolly">Continue</a>{%
-        else %}
-          <a href="#landing_pages" class="more scrolly">Continue</a>{%
-        endif %}
+        </div>
+	{% if site.greeting %}
+          <a href="#greeting" class="more scrolly">Continue</a>
+	{% else %}
+          <a href="#landing_pages" class="more scrolly">Continue</a>
+	{% endif %}
       </section>
       {% if site.greeting %}
         <!-- One -->
         <section id="greeting" class="wrapper style1 special">
           <div class="inner">
+	    <span class="image right-small"><img src="{{ site.baseurl }}/images/pbm.png" alt="" /></span>
             <header class="major">
               <h2>
 		{% if site.greeting.title %}
