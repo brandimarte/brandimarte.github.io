@@ -1,5 +1,6 @@
 ---
 priority: 0.01
+title: Scientific Reports - 2014
 categories: publications
 pub-author: Cesar E. P. Villegas, <u>P. B. Mendonça</u>, and A. R. Rocha
 pub-title: "Optical spectrum of bottom-up graphene nanoribbons: towards efficient atom-thick excitonic solar cells"

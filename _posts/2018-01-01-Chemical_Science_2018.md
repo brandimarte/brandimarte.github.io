@@ -1,5 +1,6 @@
 ---
 priority: 0.06
+title: Chemical Science - 2018
 categories: publications
 pub-author: Luana S. Pedroza, <u>Pedro Brandimarte</u>, Alexandre Reily Rocha, and M.-V. Fernández-Serra
 pub-title: "Bias-dependent local structure of water molecules at a metallic interface"
