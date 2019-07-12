@@ -662,6 +662,17 @@ input[type="radio"] {
 	}
     }
 
+    &.fitred {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+
+	img {
+	    width: 100%;
+	}
+    }
+
     &.fit {
 	display: block;
 	margin: 0 _size(element-margin) _size(element-margin) 0;
