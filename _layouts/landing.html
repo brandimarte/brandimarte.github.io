@@ -46,6 +46,9 @@
               <p>
 		{% if site.greeting.text %}
 		  {{ site.greeting.text | markdownify }}
+		  {% if site.greeting.subtext %}
+		    {{ site.greeting.subtext | markdownify }}
+		  {% endif %}
 		{% else %}
 		  {{ site.description | markdownify }}
 		{% endif %}

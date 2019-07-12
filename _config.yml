@@ -42,7 +42,8 @@ lang: en-us # used in HTML lang attributes
 # - set the greeting only if you want to display the first green section
 greeting:
   title: Welcome!
-  text: Here you can find about my work and interests. I hope you enjoy!
+  text: Here you can find about my work and interests.
+  subtext: I hope you enjoy!
 # - displayed at the bottom
 closing-head: Thank you for your visit!
 closing-para: You're welcome to leave a message!
