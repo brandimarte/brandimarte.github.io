@@ -15,6 +15,7 @@ tags:
   - photovoltaic
   - graphene nanoribbons
   - GW
+  - electronic structure
   - density functional theory
 ---
 
