@@ -1,0 +1,44 @@
+---
+key: 3
+title: Conferences
+permalink: /conferences/
+excerpt: Scientific Mettings and Workshops
+image: pic02.jpg
+background-image: pic02.jpg
+---
+
+{% if site.social.lattes %}
+  <div class="table-wrapper">
+    <table>
+      <tbody>
+	<tr>
+	  <td style="text-align: center;">
+	    A complete list of conferences/workshops I've attended cn be found on my <a target="_blank" href="{{ site.social.lattes }}"><i>lattes</i></a> curriculum &nbsp;
+	    <a target="_blank" href="{{ site.social.lattes }}" class="icon">
+	      <span class="ai ai-lattes-square ai-lg">&nbsp;</span>
+	    </a>
+	  </td>
+	</tr>
+      </tbody>
+    </table>
+  </div>
+{% endif %}
+{% if site.categories.conferences %}
+  <div class="table-wrapper">
+    <table>
+      <tbody>
+	{% include fn_groupsort_reverse.html unsorted=site.categories.conferences groupby='priority' sortby='date' %}
+	{% for work in sorted_list %}
+	  <tr>
+            <td><b><a href="{{ work.url | prepend: site.baseurl }}">{{ work.pub-title }}</a></b></td>
+            <td>{{ work.date | date: "%Y" }}</td>
+            <td>{{ work.pub-journal | strip_html | truncatewords: 12 }}</td>
+	  </tr>
+	{% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% if site.works_in_progress %}
+    <div class="works_inprogress">In-progress, more to come.</div>
+  {% endif %}
+{% endif %}
