@@ -1,7 +1,7 @@
 <!-- Footer -->
 <footer id="footer">
   <ul class="icons">
-    {% for socloc in site.social %}
+    {% for socloc in site.social limit:3 %}
       {% if socloc[1] %}
         {% if socloc[0] == 'email' %}
           <li><a target="_blank" href="{%

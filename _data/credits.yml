@@ -46,6 +46,10 @@ licenses:
     name : Gnu Public License, 3.0
     icon :
     url  : https://www.gnu.org/licenses/gpl-3.0.en.html
+  pixabay:
+    name : Pixabay License
+    icon :
+    url  : https://pixabay.com/service/terms/#license
 #
 # 'lic' values correspond to the keys in the license hash above
 # 
@@ -114,4 +118,8 @@ image-credit:
     by  : froderik
     url : https://www.flickr.com/photos/froderik/9355090806/
     lic : ccbsa2
+  - src : /images/event-1597531.jpg
+    by  : crystal710
+    url : https://pixabay.com/photos/event-auditorium-conference-1597531/
+    lic : pixabay
 
