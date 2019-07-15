@@ -30,9 +30,10 @@ background-image: talk_VR_2018.05.02.jpg
 	{% include fn_groupsort_reverse.html unsorted=site.categories.conferences groupby='priority' sortby='date' %}
 	{% for work in sorted_list %}
 	  <tr>
-            <td><b><a href="{{ work.url | prepend: site.baseurl }}">{{ work.pub-title }}</a></b></td>
-            <td>{{ work.date | date: "%Y" }}</td>
-            <td>{{ work.pub-journal | strip_html | truncatewords: 12 }}</td>
+            <td><b>{{ work.title }}</b></td>
+            <td>{{ work.date | date: "%b/%Y" }}</td>
+            <td>{{ work.conf-name | strip_html | truncatewords: 12 }}</td>
+            <td><br><a target="_blank" href="{{ site.baseurl }}/documents/{{ work.conf-pdf }}" class="icon fa-file-pdf-o fa-2x style4"></a></td>
 	  </tr>
 	{% endfor %}
       </tbody>
