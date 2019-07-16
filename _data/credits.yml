@@ -110,7 +110,7 @@ other-image-credit: All other images are public domain.
 # 'lic' values correspond to the keys in the license hash above
 #
 image-credit:
-  - src : /images/caustic_light.jpg
+  - src : /images/flickr-fdecomite.jpg
     by  : fdecomite
     url : https://www.flickr.com/photos/fdecomite/1907376527/
     lic : ccb2
@@ -118,8 +118,16 @@ image-credit:
     by  : froderik
     url : https://www.flickr.com/photos/froderik/9355090806/
     lic : ccbsa2
-  - src : /images/event-1597531.jpg
+  - src : /images/pixabay-crystal710.jpg
     by  : crystal710
     url : https://pixabay.com/photos/event-auditorium-conference-1597531/
     lic : pixabay
+  - src : /images/flickr-timn.eu.jpg
+    by  : timn.eu
+    url : https://www.flickr.com/photos/timneu/36510173275/
+    lic : ccbncsa2
+  - src : /images/flickr_IsabellePuaut.jpg
+    by  : Isabelle Puaut
+    url : https://www.flickr.com/photos/isabelle_puaut/8596304282/
+    lic : ccbncnd2
 

@@ -1,21 +1,21 @@
 ---
-key: 2
-title: Publications
-permalink: /publications/
-excerpt: Scientific production
-image: pic02.jpg
-background-image: publications.jpg
+key: 4
+title: Coding
+permalink: /coding/
+excerpt: Academic Simulation Codes
+image: mare_nostrum.jpg
+background-image: mare_nostrum_2.jpg
 ---
 
-{% if site.social.google-scholar %}
+{% if site.social.github %}
   <div class="table-wrapper">
     <table>
       <tbody>
 	<tr>
 	  <td style="text-align: center;">
-	    Visit my <a target="_blank" href="{{ site.social.google-scholar }}">Google Schoolar</a> profile &nbsp;
-	    <a target="_blank" href="{{ site.social.google-scholar }}" class="icon">
-	      <span class="ai ai-google-scholar-square ai-lg">&nbsp;</span>
+	    Visit my <a target="_blank" href="{{ site.social.github }}">github</a> profile &nbsp;
+	    <a target="_blank" href="{{ site.social.github }}" class="icon">
+	      <span class="icon fa-github-square fa-lg">&nbsp;</span>
 	    </a>
 	  </td>
 	</tr>
@@ -23,11 +23,11 @@ background-image: publications.jpg
     </table>
   </div>
 {% endif %}
-{% if site.categories.publications %}
+{% if site.categories.codes %}
   <div class="table-wrapper">
     <table>
       <tbody>
-	{% include fn_groupsort_reverse.html unsorted=site.categories.publications groupby='priority' sortby='date' %}
+	{% include fn_groupsort_reverse.html unsorted=site.categories.codes groupby='priority' sortby='date' %}
 	{% for work in sorted_list %}
 	  <tr>
             <td><b><a href="{{ work.url | prepend: site.baseurl }}">{{ work.pub-title }}</a></b></td>
