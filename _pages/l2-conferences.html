@@ -37,7 +37,11 @@ background-image: talk_VR_2018.05.02.jpg
 	      {% if work.conf-abstract %}
 	        <a target="_blank" href="{{ site.baseurl }}/documents/{{ work.conf-abstract }}" title="abstract" class="icon fa-file-pdf-o fa-lg style3"></a>
 	      {% endif %}
-<a target="_blank" href="{{ site.baseurl }}/documents/{{ work.conf-pdf }}" title="presentation" class="icon fa-file-pdf-o fa-lg style4"></a></td>
+<a target="_blank" href="{{ site.baseurl }}/documents/{{ work.conf-pdf }}" title="presentation" class="icon fa-file-pdf-o fa-lg style4"></a>
+	      {% if work.conf-movie %}
+	        <a target="_blank" href="{{ site.baseurl }}/documents/{{ work.conf-movie }}" title="movie" class="icon fa-file-movie-o fa-lg style1"></a>
+	      {% endif %}
+	    </td>
 	  </tr>
 	{% endfor %}
       </tbody>
