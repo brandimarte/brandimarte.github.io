@@ -11,6 +11,12 @@ layout: default
         {% assign idxbutton = 'Index' %}
         {% include fn_groupsort_reverse.html unsorted=site.categories.publications groupby='priority' sortby='date' %}
       {% endif %}
+      {% if page.categories contains 'coding' %}
+        {% assign idxperma = '/coding/' | prepend: site.baseurl%}
+        {% assign idxtitle = 'Coding Index' %}
+        {% assign idxbutton = 'Index' %}
+        {% include fn_groupsort_reverse.html unsorted=site.categories.coding groupby='priority' sortby='date' %}
+      {% endif %}
       {% if page.categories.first == 'topics' and page.categories.last != 'topics' %}
         {% assign idxperma = page.categories | join: '/' | prepend: '/' | prepend: site.baseurl | append: '/' %}
         {% assign idxtitle = 'Start page' %}
@@ -33,7 +39,7 @@ layout: default
       <span id="post-date">{{ page.date  | date: "%-d %B %Y" }}</span>
       <hr style="margin-top:3px;" />
     {% endunless %}
-    {% if page.categories contains 'publications' and page.tags %}
+    {% if page.categories contains 'publications' %}
       <h2>{{ page.pub-title }}</h2>
       <h5>
 	{{ page.pub-journal }} - {{ page.date  | date: "%Y" }}
@@ -59,6 +65,35 @@ layout: default
 	  </div>
 	</div>
       {% endif %}
+    {% endif %}
+    {% if page.categories contains 'coding' %}
+      {% if page.code-logo %}
+        <div class="box alt">
+	  <div class="row uniform 50%">
+	    <div class="12u">
+	      <span class="image fit">
+		<img src="{{ site.baseurl }}/images/{{ page.code-logo }}" alt="" />
+	      </span>
+	    </div>
+	  </div>
+	</div>
+      {% endif %}
+      <a target="_blank" href="{{ page.code-url }}">
+	<span class="icon fa-github fa-2x style3"></span>
+      </a>
+      &nbsp;
+      <b>Developed by {{ page.code-author }}</b>
+      <p></p>
+      {% if page.lang %}
+        {% assign work = page %}
+        {% include langlist.html %}
+      {% endif %}
+      {% if page.tags %}
+        <h5>Key words</h5>
+	{% assign work = page %}
+	{% include techlist.html %}
+      {% endif %}
+      <hr/>
     {% endif %}
 
     {{ content }}

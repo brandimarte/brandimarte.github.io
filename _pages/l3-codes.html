@@ -23,16 +23,15 @@ background-image: mare_nostrum_2.jpg
     </table>
   </div>
 {% endif %}
-{% if site.categories.codes %}
+{% if site.categories.coding %}
   <div class="table-wrapper">
     <table>
       <tbody>
-	{% include fn_groupsort_reverse.html unsorted=site.categories.codes groupby='priority' sortby='date' %}
+	{% include fn_groupsort_reverse.html unsorted=site.categories.coding groupby='priority' sortby='date' %}
 	{% for work in sorted_list %}
 	  <tr>
-            <td><b><a href="{{ work.url | prepend: site.baseurl }}">{{ work.pub-title }}</a></b></td>
-            <td>{{ work.date | date: "%Y" }}</td>
-            <td>{{ work.pub-journal | strip_html | truncatewords: 12 }}</td>
+            <td><b><a href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a></b></td>
+            <td>{{ work.excerpt | strip_html | truncatewords: 12 }}</td>
 	  </tr>
 	{% endfor %}
       </tbody>
