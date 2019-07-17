@@ -29,7 +29,7 @@ description: computational physicist
 owner:
   name: Pedro Brandimarte # or company name
   url: "https://brandimarte.github.io" # your URL
-first_published: 2010 # if migrating another site, the year of your first publish
+first_published: 2019 # if migrating another site, the year of your first publish
                       # Must be a 4-digit integer year (math is used on it)
 url: "https://brandimarte.github.io" # the base hostname & protocol for this site
 baseurl: "" # the subpath of your site, e.g. /blog
