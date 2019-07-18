@@ -222,11 +222,11 @@ ___
 > The following columns corresponds to the dissipated power in eV by each vibrational mode. The last column corresponds to the total dissipated power in eV (all modes).
 
 > **SystemLabel\_nU.SPCTR**: File containing the computed spectral function of the block `nU` with electron-phonon interaction.
-> The file indexed with `nU + 1` (the number of the blocks with electron-phonon interaction plus 1) corresponds to the spectral function of all blocks with electron-phonon interaction.
+> The file indexed with `nU+1` (the number of the blocks with electron-phonon interaction plus 1) corresponds to the spectral function of all blocks with electron-phonon interaction.
 > The first column corresponds to the energy in eV (subtracted by the Fermi energy) and the second column corresponds to the spectral function in (eV)<sup>-1</sup>.
 
 > **SystemLabel\_nU.DOS**: File containing the computed local density of states (LDOS) of the block `nU` with electron-phonon interaction.
-> The file indexed with `nU + 1` (the number of the blocks with electron-phonon interaction plus 1) corresponds to the sum of the LDOS all blocks with electron-phonon interaction.
+> The file indexed with `nU+1` (the number of the blocks with electron-phonon interaction plus 1) corresponds to the sum of the LDOS all blocks with electron-phonon interaction.
 > The first column corresponds to the energy in eV (subtracted by the Fermi energy) and the second column corresponds to the LDOS in (eV)<sup>-1</sup>.
 
 ___
