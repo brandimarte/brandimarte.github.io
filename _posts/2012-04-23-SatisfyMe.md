@@ -11,15 +11,14 @@ code-author: <u>Pedro Brandimarte</u>
 code-lictype: open
 lang:
   - C
-  - shell script
-  - R
 tags:
-  - neuronal interactions
-  - graph model
-  - data structure
-  - skip-list
-  - Bayesian statistics
-  - Markov Chain Monte Carlo
+  - satisfiability-problem
+  - conjunctive-normal-form
+  - k-sat
+  - k-cnf
+  - generalized-cover-problem
+  - dancing-links
+  - np-complete
 ---
 
 #### Introduction
