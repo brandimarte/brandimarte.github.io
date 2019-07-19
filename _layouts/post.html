@@ -78,10 +78,18 @@ layout: default
 	  </div>
 	</div>
       {% endif %}
-      <a target="_blank" href="{{ page.code-url }}">
-	<span class="icon fa-github fa-2x style3"></span>
-      </a>
-      &nbsp;
+      {% if page.code-url and page.code-repo %}
+	{% if page.code-lictype contains 'open' %}
+	  <a target="_blank" href="{{ page.code-url }}" title="{{ page.license }}" class="icon">
+	    <span class="icon fa-{{ page.code-repo }} fa-2x style3"></span>
+	  </a>
+	{% else %}
+	  <a target="_blank" href="{{ page.code-url }}" title="closed access" class="icon">
+	    <span class="icon fa-{{ page.code-repo }} fa-2x style5"></span>
+	  </a>
+	{% endif %}
+	&nbsp;
+      {% endif %}
       <b>Developed by {{ page.code-author }}</b>
       <p></p>
       {% if page.lang %}

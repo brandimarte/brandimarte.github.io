@@ -6,8 +6,11 @@ categories: coding
 background-image: InelasticDisorder_back.jpg
 options: minihead, notitle
 code-logo: InelasticDisorder.jpg
+code-repo: github
 code-url: https://github.com/brandimarte/idisorder
 code-author: <u>Pedro Brandimarte</u>, Alberto Torres, and A. R. Rocha
+code-lictype: open
+code-license: GPL-3.0
 lang:
   - Fortran95
   - C++
@@ -37,7 +40,7 @@ ___
 
 #### Compilation
 
-The compilation of the program is done using a `Makefile` which, in turn, uses a `arch.make` file provided by the user, containing the required informations for compiling the code.
+The compilation of the program is done using a `Makefile` which, in turn, uses a `arch.make` file provided by the user, containing the required information for compiling the code.
 Several examples of `arch.make` files for different machine architectures are provided at `Obj/archmake` folder.
 
 Basically, in the `arch.make` file the user should set the *C* and *Fortran* compilers and its options, and should provide the path for BLAS [10] and LAPACK [11] libraries.
@@ -136,15 +139,15 @@ If any of these values is not supplied, the default value will be assumed.
 > The last column are strings the with block labels, which are used to find the files `BlockLabel.HSL` and `BlockLabel.DAT`.
 > 
 > Example:
-> ```bash
->    %block UnitsFiles
->      0.5  1   Defect1
->      0.3  0   Defect2
->      0.2  1   Defect3
->      0.0  0   pristine
->      0.0  0   leftLead
->      0.0  0   rightLead
->    %endblock UnitsFiles
+> ```
+>  %block UnitsFiles
+>    0.5  1   Defect1
+>    0.3  0   Defect2
+>    0.2  1   Defect3
+>    0.0  0   pristine
+>    0.0  0   leftLead
+>    0.0  0   rightLead
+>  %endblock UnitsFiles
 >```
 > In this example, the `NumberUnitTypes` is 4 and there are 3 types of defects, with the first one with a higher probability of being present in the system.
 > The electron-phonon interaction will be considered only on first and third defects blocks and the program will search for the files `Defect1.Meph` and `Defect3.Meph`.
@@ -205,27 +208,27 @@ ___
 
 #### Output Files
 
-> **SystemLabel\_ExVxI.CUR**: File with six columns containing the computed currents.
+> **SystemLabel_ExVxI.CUR**: File with six columns containing the computed currents.
 > The first column corresponds to the energy in eV (subtracted by the Fermi energy) and the second column corresponds to the bias in V.
 > The next columns are the computed current in ampere A with the following order: elastic current, symmetric term of inelastic current, asymmetric term of inelastic current and the total current.
 
-> **SystemLabel\_ExVxdI.dIdV**: File with six columns containing the computed differential conductances *dI/dV*.
+> **SystemLabel_ExVxdI.dIdV**: File with six columns containing the computed differential conductances *dI/dV*.
 > The first column corresponds to the energy in eV (subtracted by the Fermi energy) and the second column corresponds to the bias in V.
 > The next columns are the computed *dI/dV* in quantum conductance units (G<sub>0</sub>) with the following order: elastic *dI/dV*, symmetric term of inelastic *dI/dV*, asymmetric term of inelastic *dI/dV* and the total *dI/dV*.
 
-> **SystemLabel\_ExVxd2I.d2IdV2**: File with six columns containing the computed derivatives *d<sup>2</sup>I/dV<sup>2</sup>*.
+> **SystemLabel_ExVxd2I.d2IdV2**: File with six columns containing the computed derivatives *d<sup>2</sup>I/dV<sup>2</sup>*.
 > The first column corresponds to the energy in eV (subtracted by the Fermi energy) and the second column corresponds to the bias in V.
 > The next columns are the computed *d<sup>2</sup>I/dV<sup>2</sup>* in quantum conductance per volt (G<sub>0</sub>V<sup>-1</sup>) with the following order: elastic *d<sup>2</sup>I/dV<sup>2</sup>*, symmetric term of inelastic *d<sup>2</sup>I/dV<sup>2</sup>*, asymmetric term of inelastic *d<sup>2</sup>I/dV<sup>2</sup>* and the total *d<sup>2</sup>I/dV<sup>2</sup>*.
 
-> **SystemLabel\_ExVxP\_nU.PWR**: File containing the computed dissipated power by the block `nU` with electron-phonon interaction.
+> **SystemLabel_ExVxP_nU.PWR**: File containing the computed dissipated power by the block `nU` with electron-phonon interaction.
 > The first column corresponds to the energy in eV (subtracted by the Fermi energy) and the second column corresponds to the bias in V.
 > The following columns corresponds to the dissipated power in eV by each vibrational mode. The last column corresponds to the total dissipated power in eV (all modes).
 
-> **SystemLabel\_nU.SPCTR**: File containing the computed spectral function of the block `nU` with electron-phonon interaction.
+> **SystemLabel_nU.SPCTR**: File containing the computed spectral function of the block `nU` with electron-phonon interaction.
 > The file indexed with `nU+1` (the number of the blocks with electron-phonon interaction plus 1) corresponds to the spectral function of all blocks with electron-phonon interaction.
 > The first column corresponds to the energy in eV (subtracted by the Fermi energy) and the second column corresponds to the spectral function in (eV)<sup>-1</sup>.
 
-> **SystemLabel\_nU.DOS**: File containing the computed local density of states (LDOS) of the block `nU` with electron-phonon interaction.
+> **SystemLabel_nU.DOS**: File containing the computed local density of states (LDOS) of the block `nU` with electron-phonon interaction.
 > The file indexed with `nU+1` (the number of the blocks with electron-phonon interaction plus 1) corresponds to the sum of the LDOS all blocks with electron-phonon interaction.
 > The first column corresponds to the energy in eV (subtracted by the Fermi energy) and the second column corresponds to the LDOS in (eV)<sup>-1</sup>.
 
@@ -273,23 +276,23 @@ ___
 
 #### References
 
-[1] J. K. Viljas, J. C. Cuevas, F. Pauly and M. Häfner, *Phys. Rev. B* **72**, 245415 (2005).
+[1] <a target="_blank" href="https://doi.org/10.1103/physrevb.72.245415">J. K. Viljas, J. C. Cuevas, F. Pauly and M. Häfner, *Phys. Rev. B* **72**, 245415 (2005).</a>
 
-[2] M. Paulsson, T. Frederiksen and M. Brandbyge, *Phys. Rev. B* **72**, 201101(R) (2005).
+[2] <a target="_blank" href="https://doi.org/10.1103/physrevb.72.201101">M. Paulsson, T. Frederiksen and M. Brandbyge, *Phys. Rev. B* **72**, 201101(R) (2005).</a>
 
-[3] J. M. Soler, E. Artacho, J. D. Gale, A. García, J. Junquera, P. Ordejón and D. Sánchez-Portal, *J. Phys. Cond. Mat.* **14**, 2745-2779 (2002).
+[3] <a target="_blank" href="https://doi.org/10.1088/0953-8984/14/11/302">J. M. Soler, E. Artacho, J. D. Gale, A. García, J. Junquera, P. Ordejón and D. Sánchez-Portal, *J. Phys. Cond. Mat.* **14**, 2745-2779 (2002).</a>
 
 [4] <a target="_blank" href="http://departments.icmab.es/leem/siesta/">http://departments.icmab.es/leem/siesta/</a>
 
-[5] A. R. Rocha, V. M. García-Suárez, S. W. Bailey, C. J. Lambert, J. Ferrer and S. Sanvito, *Phys. Rev. B* **73**, 085414 (2006).
+[5] <a target="_blank" href="https://doi.org/10.1103/physrevb.73.085414">A. R. Rocha, V. M. García-Suárez, S. W. Bailey, C. J. Lambert, J. Ferrer and S. Sanvito, *Phys. Rev. B* **73**, 085414 (2006).</a>
 
 [6] SMEAGOL User's Guide comes along with the code at: <a target="_blank" href="http://www.smeagol.tcd.ie">http://www.smeagol.tcd.ie</a>
 
 [7] PhOnonS ITeratIVE VIBRATIONS. <a target="_blank" href="https://github.com/brandimarte/vibrations">https://github.com/brandimarte/vibrations</a>
 
-[8] C. H. Lewenkopf and E. R. Mucciolo, *J. Comput. Electron.* **12**, 203-231 (2013).
+[8] <a target="_blank" href="https://doi.org/10.1007/s10825-013-0458-7">C. H. Lewenkopf and E. R. Mucciolo, *J. Comput. Electron.* **12**, 203-231 (2013).</a>
 
-[9] A. R. Rocha, M. Rossi, A. J. R. da Silva and A. Fazzio, *J. Phys. D: Appl. Phys.* **43**, 374002 (2010).
+[9] <a target="_blank" href="https://doi.org/10.1088/0022-3727/43/37/374002">A. R. Rocha, M. Rossi, A. J. R. da Silva and A. Fazzio, *J. Phys. D: Appl. Phys.* **43**, 374002 (2010).</a>
 
 [10] BLAS - Basic Linear Algebra Subprograms. <a target="_blank" href="http://www.netlib.org/blas/">http://www.netlib.org/blas/</a>
 

@@ -6,8 +6,11 @@ categories: coding
 background-image: PositiveVibrations_back.jpg
 options: minihead, notitle
 code-logo: PositiveVibrations.jpg
+code-repo: github
 code-url: https://github.com/brandimarte/vibrations
 code-author: <u>Pedro Brandimarte</u> and A. R. Rocha
+code-lictype: open
+code-license: GPL-3.0
 lang:
   - C
   - shell script
@@ -139,11 +142,11 @@ ___
 
 #### References
 
-[1] J. M. Soler, E. Artacho, J. D. Gale, A. García, J. Junquera, P. Ordejón and D. Sánchez-Portal, *J. Phys. Cond. Mat.* **14**, 2745-2779 (2002).
+[1] <a target="_blank" href="https://doi.org/10.1088/0953-8984/14/11/302">J. M. Soler, E. Artacho, J. D. Gale, A. García, J. Junquera, P. Ordejón and D. Sánchez-Portal, *J. Phys. Cond. Mat.* **14**, 2745-2779 (2002).</a>
 
 [2] <a target="_blank" href="http://departments.icmab.es/leem/siesta/">http://departments.icmab.es/leem/siesta/</a>
 
-[3] T. Frederiksen, M. Paulsson, M. Brandbyge and A.-P. Jauho, *Phys. Rev. B* **75**, 205413 (2007).
+[3] <a target="_blank" href="https://doi.org/10.1103/physrevb.75.205413">T. Frederiksen, M. Paulsson, M. Brandbyge and A.-P. Jauho, *Phys. Rev. B* **75**, 205413 (2007).</a>
 
 [4] LAPACK - Linear Algebra PACKage. <a target="_blank" href="http://www.netlib.org/lapack/">http://www.netlib.org/lapack/</a>
 

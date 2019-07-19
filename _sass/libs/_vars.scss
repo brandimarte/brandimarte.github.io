@@ -163,5 +163,16 @@ $palette: (
 	border-bg:	rgba(0,0,0,0.0375),
 	border2:	#bfbfbf,
 	border2-bg:	rgba(0,0,0,0.1)
+    ),
+
+    accent8: (
+	bg:		#b24040,
+	fg-bold:	#ffffff,
+	fg:		mix(#b24040, #ffffff, 25%),
+	fg-light:	mix(#b24040, #ffffff, 40%),
+	border:		rgba(0,0,0,0.125),
+	border-bg:	rgba(255,255,255,0.075),
+	border2:	rgba(0,0,0,0.25),
+	border2-bg:	rgba(255,255,255,0.2)
     )
 );
