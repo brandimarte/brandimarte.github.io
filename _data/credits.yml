@@ -114,20 +114,27 @@ image-credit:
     by  : fdecomite
     url : https://www.flickr.com/photos/fdecomite/1907376527/
     lic : ccb2
+  - src : /images/flickr-IanGlover.jpg
+    by  : Ian Glover
+    url : https://www.flickr.com/photos/irglover/37308864812/
+    lic : ccbnc2
   - src : /images/flickr-froderik.jpg
     by  : froderik
     url : https://www.flickr.com/photos/froderik/9355090806/
     lic : ccbsa2
-  - src : /images/pixabay-crystal710.jpg
-    by  : crystal710
-    url : https://pixabay.com/photos/event-auditorium-conference-1597531/
-    lic : pixabay
   - src : /images/flickr-timn.eu.jpg
     by  : timn.eu
     url : https://www.flickr.com/photos/timneu/36510173275/
     lic : ccbncsa2
-  - src : /images/flickr_IsabellePuaut.jpg
+  - src : /images/pixabay-crystal710.jpg
+    by  : crystal710
+    url : https://pixabay.com/photos/event-auditorium-conference-1597531/
+    lic : pixabay
+  - src : /images/flickr-IsabellePuaut.jpg
     by  : Isabelle Puaut
     url : https://www.flickr.com/photos/isabelle_puaut/8596304282/
     lic : ccbncnd2
-
+  - src : /images/flickr-KasiMetcalfe.jpg
+    by  : Kasi Metcalfe
+    url : https://www.flickr.com/photos/kasimetcalfe/339113868/
+    lic : ccbncnd2
