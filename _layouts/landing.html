@@ -43,15 +43,14 @@
 		  {{ site.title }}
 		{% endif %}
 	      </h2>
-              <p>
-		{% if site.greeting.text %}
+              {% if site.greeting.text %}
 		  {{ site.greeting.text | markdownify }}
 		  {% if site.greeting.subtext %}
 		    {{ site.greeting.subtext | markdownify }}
 		  {% endif %}
 		{% else %}
 		  {{ site.description | markdownify }}
-		{% endif %}</p>
+	      {% endif %}
 	      <br>
 	      <p style="color:#ed7b33">
 		<a target="_self" href="{{ site.baseurl }}/cv" title="curriculum vitae" class="ai ai-cv-square ai-5x"></a>
