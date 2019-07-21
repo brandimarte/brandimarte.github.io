@@ -117,16 +117,16 @@ other-image-credit:
 # 'lic' values correspond to the keys in the license hash above
 #
 image-credit:
-  - src : /images/flickr-fdecomite.jpg
-    by  : fdecomite
-    url : https://www.flickr.com/photos/fdecomite/1907376527/
-    lic : ccb2
   - src : /images/flickr-IanGlover.jpg
     by  : Ian Glover
     url : https://www.flickr.com/photos/irglover/37308864812/
     lic : ccbnc2
-  - src : /images/flickr-froderik.jpg
-    by  : froderik
+  - src : /images/flickr-AlessandroCaproni.jpg
+    by  : Alessandro Caproni
+    url : https://www.flickr.com/photos/weyes/42081670341/
+    lic : ccb2
+  - src : /images/flickr-FredrikRubensson.jpg
+    by  : Fredrik Rubensson
     url : https://www.flickr.com/photos/froderik/9355090806/
     lic : ccbsa2
   - src : /images/flickr-timn.eu.jpg
