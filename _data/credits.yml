@@ -117,9 +117,21 @@ other-image-credit:
 # 'lic' values correspond to the keys in the license hash above
 #
 image-credit:
-  - src : /images/flickr-IanGlover.jpg
-    by  : Ian Glover
-    url : https://www.flickr.com/photos/irglover/37308864812/
+  - src : /images/flickr-timn.eu.jpg
+    by  : timn.eu
+    url : https://www.flickr.com/photos/timneu/36510173275/
+    lic : ccbncsa2
+  - src : /images/flickr-IsabellePuaut.jpg
+    by  : Isabelle Puaut
+    url : https://www.flickr.com/photos/isabelle_puaut/8596304282/
+    lic : ccbncnd2
+  - src : /images/pixabay-crystal710.jpg
+    by  : crystal710
+    url : https://pixabay.com/photos/event-auditorium-conference-1597531/
+    lic : pixabay
+  - src : /images/flickr-petmutt.jpg
+    by  : petmutt
+    url : https://www.flickr.com/photos/76741766@N00/6578142083/
     lic : ccbnc2
   - src : /images/flickr-AlessandroCaproni.jpg
     by  : Alessandro Caproni
@@ -129,19 +141,11 @@ image-credit:
     by  : Fredrik Rubensson
     url : https://www.flickr.com/photos/froderik/9355090806/
     lic : ccbsa2
-  - src : /images/flickr-timn.eu.jpg
-    by  : timn.eu
-    url : https://www.flickr.com/photos/timneu/36510173275/
-    lic : ccbncsa2
-  - src : /images/pixabay-crystal710.jpg
-    by  : crystal710
-    url : https://pixabay.com/photos/event-auditorium-conference-1597531/
-    lic : pixabay
-  - src : /images/flickr-IsabellePuaut.jpg
-    by  : Isabelle Puaut
-    url : https://www.flickr.com/photos/isabelle_puaut/8596304282/
-    lic : ccbncnd2
   - src : /images/flickr-KasiMetcalfe.jpg
     by  : Kasi Metcalfe
     url : https://www.flickr.com/photos/kasimetcalfe/339113868/
     lic : ccbncnd2
+  - src : /images/flickr-IanGlover.jpg
+    by  : Ian Glover
+    url : https://www.flickr.com/photos/irglover/37308864812/
+    lic : ccbnc2
