@@ -109,7 +109,10 @@ creds:
 #  - name : Adam Garrett-Harris
 #    url  : https://twitter.com/agarrharr
 #
-other-image-credit: All other images are public domain.
+other-image-credit:
+  - cred : All other images under the
+    lic  : ccb3
+    icon : fa-creative-commons
 # 
 # 'lic' values correspond to the keys in the license hash above
 #

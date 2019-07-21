@@ -124,8 +124,18 @@ background-image: caustic_light.jpg
 
 <p class="pcreds">
   {% if site.data.tokens.other-image-credit %}
-    {{ site.data.tokens.other-image-credit}}
+    {{ site.data.tokens.other-image-credit.cred }}
+    xuxu
   {% else %}
-    {{ site.data.credits.other-image-credit}}
+    {% for ocred in site.data.credits.other-image-credit %}
+      {{ ocred.cred }}
+      <a target="_blank"
+	 href="{{ site.data.credits.licenses[ocred.lic].url }}"
+	 title="{{ site.data.credits.licenses[ocred.lic].name }}"
+	 class="icon {{ ocred.icon }}">
+	{{ site.data.credits.licenses[ocred.lic].name }}
+      </a>
+      license.
+    {% endfor %}
   {% endif %}
 </p>
