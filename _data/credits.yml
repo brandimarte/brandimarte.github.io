@@ -70,6 +70,10 @@ creds:
     by  : James Walsh
     url : https://github.com/jpswalsh/academicons
     lic : mit
+  - for : Flag icons
+    by  : Hopnguyen Mr
+    url : https://www.iconfinder.com/iconsets/ensign-11
+    lic : ccb3
   - for : Syntax-highlighting
     by  : Pygments
     url : http://pygments.org
