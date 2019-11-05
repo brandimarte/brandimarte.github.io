@@ -6,8 +6,8 @@ categories: coding
 background-image: InelasticSmeagol_back.jpg
 options: minihead, notitle
 code-logo: InelasticSmeagol.jpg
-code-repo: bitbucket
-code-url: https://bitbucket.org/brandimarte/smeagol-2.0
+code-repo: gitlab
+code-url: https://gitlab.com/brandimarte/siesta-smeagol
 code-author: <u>Pedro Brandimarte</u> and A. R. Rocha
 code-lictype: close
 lang:
