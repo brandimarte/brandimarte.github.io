@@ -57,7 +57,7 @@ The following image (made by me with [Blender](https://www.blender.org/)) was se
   volume    = {9},
   number    = {1},
   pages     = {62--69},
-  issn      = {2041-6520},
+  issn      = {2041--6520},
   doi       = {10.1039/c7sc02208e},
   publisher = {Royal Society of Chemistry ({RSC})},
 }

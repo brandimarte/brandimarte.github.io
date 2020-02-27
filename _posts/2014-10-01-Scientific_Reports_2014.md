@@ -42,7 +42,7 @@ Finally, we estimate some relevant optical properties that strengthen the potent
   volume    = {4},
   number    = {1},
   pages     = {6579},
-  issn      = {2045-2322},
+  issn      = {2045--2322},
   doi       = {10.1038/srep06579},
   publisher = {Springer Nature},
 }
