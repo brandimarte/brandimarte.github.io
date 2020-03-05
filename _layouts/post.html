@@ -28,6 +28,29 @@ layout: default
           {% endif %}
         {% endfor %}
         {% assign sorted_list = sorted_list | sort: 'date' %}
+        {% if page.pub-title %}
+          <span id="post-date">{{ page.date  | date: "%-d %B %Y" }}</span>
+	  <hr style="margin-top:3px;margin-bottom:10px" />
+          {{ page.pub-author }}. <i>{{ page.pub-title }}</i>. {{ page.pub-journal }} <b>{{ page.pub-volume }}</b>, {{ page.pub-page }} ({{ page.pub-year }}).
+          &nbsp;
+	  <a target="_blank" href="{{ page.pub-url }}">
+	    <span class="ai ai-doi ai-lg"></span>
+	  </a>
+	  {% if page.stars == 5 %}
+	    </br>&#9733;&#9733;&#9733;&#9733;&#9733;
+	  {% elsif page.stars == 4 %}
+	    </br>&#9733;&#9733;&#9733;&#9733;&#9734;
+	  {% elsif page.stars == 3 %}
+	    </br>&#9733;&#9733;&#9733;&#9734;&#9734;
+	  {% elsif page.stars == 2 %}
+	    </br>&#9733;&#9733;&#9734;&#9734;&#9734;
+	  {% elsif page.stars == 1 %}
+	    </br>&#9733;&#9734;&#9734;&#9734;&#9734;
+	  {% elsif page.stars == 0 %}
+	    </br>&#9734;&#9734;&#9734;&#9734;&#9734;
+	  {% endif %}
+	  <hr style="margin-top:5px;margin-bottom:10px" />
+        {% endif %}
       {% endif %}
     {% endunless %}
     {% if sorted_list %}
@@ -39,6 +62,7 @@ layout: default
       <span id="post-date">{{ page.date  | date: "%-d %B %Y" }}</span>
       <hr style="margin-top:3px;" />
     {% endunless %}
+    
     {% if page.categories contains 'publications' %}
       <h2>{{ page.pub-title }}</h2>
       <h5>
@@ -106,6 +130,11 @@ layout: default
 
     {{ content }}
 
+    {% if page.categories contains 'topics' and page.pub-title %}
+      <h5>Key words</h5>
+      {% assign work = page %}
+      {% include techlist.html %}
+    {% endif %}
     {% if page.categories contains 'publications' and page.tags %}
       <h5>Key words</h5>
       {% assign work = page %}
