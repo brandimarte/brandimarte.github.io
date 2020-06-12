@@ -33,7 +33,7 @@ We find that the water molecule tends to align its dipole moment with the electr
 ##### Press release <a target="_blank" href="https://twitter.com/CFMdonostia/status/959321271526805504"><span class="icon fa-twitter fa-lg style1"></span></a>
 
 Our article was highlighted and discussed at <a target="_blank" href="https://mappingignorance.org/2018/02/01/accurate-simulation-aqueous-based-electrochemical-setups/">*Mapping Ignorance*</a>.
-
+<br>
 The following image (made by me with [Blender](https://www.blender.org/)) was selected as the **outside back cover** for Issue 1 of Chemical Science 2018:
 
 <div class="box alt">
