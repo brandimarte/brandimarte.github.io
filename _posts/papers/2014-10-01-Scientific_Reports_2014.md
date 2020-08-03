@@ -31,6 +31,8 @@ The energy, binding energy and the corresponding excitonic transitions involved 
 We found that in contrast to zigzag graphene nanoribbons, the excitonic peaks in the absorption spectrum are a consequence of a group of transitions involving the first and second conduction and valence bands.
 Finally, we estimate some relevant optical properties that strengthen the potential of these nanoribbons for acting as a donor materials in photovoltaic.
 
+##### Press release <a target="_blank" href="https://twitter.com/CondensedPapers/status/534547172709380097"><span class="icon fa-twitter fa-lg style1"></span></a>
+
 ##### Bibtex citation
 
 ```

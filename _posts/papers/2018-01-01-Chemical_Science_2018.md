@@ -30,7 +30,8 @@ This framework allows for the out-of-equilibrium calculation of forces and dynam
 In this work, we apply this methodology to study the electronic properties and atomic forces of a water molecule at the interface of a gold surface.
 We find that the water molecule tends to align its dipole moment with the electric field, and it is either repelled or attracted to the metal depending on the sign and magnitude of the applied bias, in an asymmetric fashion.
 
-##### Press release <a target="_blank" href="https://twitter.com/CFMdonostia/status/959321271526805504"><span class="icon fa-twitter fa-lg style1"></span></a>
+##### Press release <a target="_blank" href="https://twitter.com/DIPCehu/status/1029714637846204416"><span class="icon fa-twitter fa-lg style1"></span></a> <a target="_blank" href="https://twitter.com/ChemicalScience/status/948584902609522688"><span class="icon fa-twitter fa-lg style1"></span></a> <a target="_blank" href="https://twitter.com/CFMdonostia/status/959321271526805504"><span class="icon fa-twitter fa-lg style1"></span></a>
+
 
 Our article was highlighted and discussed at <a target="_blank" href="https://mappingignorance.org/2018/02/01/accurate-simulation-aqueous-based-electrochemical-setups/">*Mapping Ignorance*</a>.
 <br>
@@ -45,6 +46,7 @@ The following image (made by me with [Blender](https://www.blender.org/)) was se
     </div>
   </div>
 </div>
+
 
 ##### Bibtex citation
 
