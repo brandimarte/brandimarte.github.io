@@ -77,6 +77,10 @@ layout: default
 	</a>
       </h5>
       {{ page.pub-author }}
+      {% if page.pub-equal-contrib %}
+        <p></p>
+        <h6>{{ page.pub-equal-contrib }}</h6>
+      {% endif %}
       <hr/>
       {% if page.pub-fig %}
         <div class="box alt">
