@@ -5,8 +5,8 @@ categories: publications
 pub-author: Rafal Zuzak, <u>Pedro Brandimarte</u>, Piotr Olszowski and Irena Izydorczyk and Marios Markoulides and Bartosz Such, Marek Kolmer, Marek Szymonski, Aran Garcia-Lekue, André Gourdon, and Szymon Godlewski
 pub-title: "On-Surface Synthesis of Chlorinated Narrow Graphene Nanoribbon Organometallic Hybrids"
 pub-journal: Journal of Physical Chemistry Letters
-pub-volume: XXX
-pub-number: XXX
+pub-volume: 11
+pub-number: 24
 pub-doi: 10.1021/acs.jpclett.0c03134
 pub-url: https://doi.org/10.1021/acs.jpclett.0c03134
 pub-pdf: https://pubs.acs.org/doi/pdf/10.1021/acs.jpclett.0c03134
@@ -40,8 +40,8 @@ This will be beneficial in the molecule on-surface processing when the preparati
   title     = {On-Surface Synthesis of Chlorinated Narrow Graphene Nanoribbon Organometallic Hybrids},
   journal   = {Journal of Physical Chemistry Letters},
   year      = {2020},
-  volume    = {XXX},
-  number    = {XXX},
+  volume    = {11},
+  number    = {24},
   pages     = {10290--10297},
   doi       = {10.1021/acs.jpclett.0c03134},
   publisher = {American Chemical Society ({ACS})},
