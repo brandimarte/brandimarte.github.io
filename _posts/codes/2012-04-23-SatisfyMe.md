@@ -2,7 +2,7 @@
 priority: 0.11
 title: "SatisfyMe!"
 excerpt: "A k-satisfiability solver based on Knuth dancing-links X algorithm"
-categories: coding
+categories: coding main
 background-image: SatisfyMe_back.jpg
 options: minihead, notitle
 code-repo: github

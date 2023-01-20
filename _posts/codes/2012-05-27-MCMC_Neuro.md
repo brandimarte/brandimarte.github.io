@@ -2,7 +2,7 @@
 priority: 0.13
 title: "MCMCneuro"
 excerpt: "Data driven graph model for neuronal interactions using Bayesian statistics and Markov Chain Monte Carlo"
-categories: coding
+categories: coding main
 background-image: MCMCneuro_back.jpg
 options: minihead, notitle
 code-logo: MCMCneuro.jpg

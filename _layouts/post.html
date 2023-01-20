@@ -11,11 +11,17 @@ layout: default
         {% assign idxbutton = 'Index' %}
         {% include fn_groupsort_reverse.html unsorted=site.categories.publications groupby='priority' sortby='date' %}
       {% endif %}
-      {% if page.categories contains 'coding' %}
+      {% if page.categories contains 'main' %}
         {% assign idxperma = '/coding/' | prepend: site.baseurl%}
         {% assign idxtitle = 'Coding Index' %}
         {% assign idxbutton = 'Index' %}
-        {% include fn_groupsort_reverse.html unsorted=site.categories.coding groupby='priority' sortby='date' %}
+        {% include fn_groupsort_reverse.html unsorted=site.categories.main groupby='priority' sortby='date' %}
+      {% endif %}
+      {% if page.categories contains 'contrib' %}
+        {% assign idxperma = '/coding/' | prepend: site.baseurl%}
+        {% assign idxtitle = 'Coding Index' %}
+        {% assign idxbutton = 'Index' %}
+        {% include fn_groupsort_reverse.html unsorted=site.categories.contrib groupby='priority' sortby='date' %}
       {% endif %}
       {% if page.categories.first == 'topics' and page.categories.last != 'topics' %}
         {% assign idxperma = page.categories | join: '/' | prepend: '/' | prepend: site.baseurl | append: '/' %}
@@ -97,28 +103,32 @@ layout: default
     {% if page.categories contains 'coding' %}
       {% if page.code-logo %}
         <div class="box alt">
-	  <div class="row uniform 50%">
-	    <div class="12u">
-	      <span class="image fit">
-		<img src="{{ site.baseurl }}/images/{{ page.code-logo }}" alt="" />
-	      </span>
-	    </div>
-	  </div>
-	</div>
+          <div class="row uniform 50%">
+            <div class="12u">
+              <span class="image fit">
+                <img src="{{ site.baseurl }}/images/{{ page.code-logo }}" alt="" />
+              </span>
+            </div>
+          </div>
+        </div>
       {% endif %}
       {% if page.code-url and page.code-repo %}
-	{% if page.code-lictype contains 'open' %}
-	  <a target="_blank" href="{{ page.code-url }}" title="{{ page.license }}" class="icon">
-	    <span class="icon fa-{{ page.code-repo }} fa-2x style3"></span>
-	  </a>
-	{% else %}
-	  <a target="_blank" href="{{ page.code-url }}" title="closed access" class="icon">
-	    <span class="icon fa-{{ page.code-repo }} fa-2x style5"></span>
-	  </a>
-	{% endif %}
-	&nbsp;
+        {% if page.code-lictype contains 'open' %}
+          <a target="_blank" href="{{ page.code-url }}" title="{{ page.license }}" class="icon">
+            <span class="icon fa-{{ page.code-repo }} fa-2x style3"></span>
+          </a>
+        {% else %}
+          <a target="_blank" href="{{ page.code-url }}" title="closed access" class="icon">
+            <span class="icon fa-{{ page.code-repo }} fa-2x style5"></span>
+          </a>
+        {% endif %}
+        &nbsp;
       {% endif %}
-      <b>Developed by {{ page.code-author }}</b>
+      {% if page.categories contains 'main' %}
+        <b>Developed by {{ page.code-author }}</b>
+      {% else %}
+        <b>Contributed to {{ page.code-author }}</b>
+        {% endif %}
       <p></p>
       {% if page.lang %}
         {% assign work = page %}
@@ -126,10 +136,10 @@ layout: default
       {% endif %}
       {% if page.tags %}
         <h5>Key words</h5>
-	{% assign work = page %}
-	{% include techlist.html %}
+        {% assign work = page %}
+        {% include techlist.html %}
       {% endif %}
-      <hr/>
+      <hr />
     {% endif %}
 
     {{ content }}

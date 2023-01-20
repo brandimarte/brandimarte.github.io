@@ -2,7 +2,7 @@
 priority: 0.19
 title: "Inelastic Disorder"
 excerpt: "Inelastic non-equilibrium electronic transport in disordered systems"
-categories: coding
+categories: coding main
 background-image: InelasticDisorder_back.jpg
 options: minihead, notitle
 code-logo: InelasticDisorder.jpg

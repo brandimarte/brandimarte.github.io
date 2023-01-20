@@ -2,7 +2,7 @@
 priority: 0.17
 title: "PhOnonS ITeratIVE VIBRATIONS"
 excerpt: "Vibrational and electron-phonon coupling analysis via first-principles"
-categories: coding
+categories: coding main
 background-image: PositiveVibrations_back.jpg
 options: minihead, notitle
 code-logo: PositiveVibrations.jpg

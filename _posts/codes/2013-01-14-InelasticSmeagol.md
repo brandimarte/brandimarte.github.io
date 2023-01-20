@@ -2,7 +2,7 @@
 priority: 0.15
 title: "Inelastic SMEAGOL"
 excerpt: "<i>Ab initio</i> inelastic electronic transport of atomic scale devices"
-categories: coding
+categories: coding main
 background-image: InelasticSmeagol_back.jpg
 options: minihead, notitle
 code-logo: InelasticSmeagol.jpg
