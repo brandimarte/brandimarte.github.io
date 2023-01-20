@@ -114,11 +114,11 @@ Our solution is enabled by default since AKG r1.9.
   * Transformer
   * GPT-3
   * Bert
-  * Wide&Deep
+  * Wide and Deep
   * DeepFM
   * ResNet50
   * YOLO-v3 Darknet-53
-  * MindSponge
+  * MindSponge Protein Relaxation
 
 
 <!---
