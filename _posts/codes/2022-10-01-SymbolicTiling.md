@@ -64,7 +64,7 @@ Within the polyhedral analysis there are several transformations that can be app
 </div>
 
 
-#### The Loop Tiling Optimization 
+#### Loop Tiling Optimization 
 
 The **loop tiling** transformation is one of the most important optimizations for computationally intensive tasks.
 It is a well-known transformation that has been extensively studied since at least the 1980s.
@@ -100,6 +100,7 @@ In our case we also analyzed the intermediate representation (IR), retrieving al
 We also take into account information from low-level passes to code generation that actually happens afterwards, but that may require extra memory usage for their optimization.
 Furthermore, we do not follow the exact hardware, but rather do an abstraction where we represent, for example, the Ascend NPU hierarchically, as a tree.
 
+Our solution is enabled by default since AKG r1.9.
 
 #### Key contributions
 
